@@ -17,10 +17,9 @@
             _grafo[y, x] += 1;
         }
 
-        public void InserirAresta(int x1, int y1, int x2, int y2)
+        public void InserirVertice(int x1, int y1)
         {
             _grafo[x1, y1] += 1;
-            _grafo[x2, y2] += 1;
         }
 
         public int[] ExplorarProfundidade(int VerticeInicial)

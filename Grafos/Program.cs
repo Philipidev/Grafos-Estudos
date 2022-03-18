@@ -8,6 +8,8 @@ grafo.InserirArestaEspelhada(2, 3);
 grafo.InserirArestaEspelhada(3, 2);
 grafo.InserirArestaEspelhada(5, 3);
 grafo.InserirArestaEspelhada(3, 5);
+grafo.InserirVertice(5, 7);
+grafo.InserirVertice(1, 7);
 
 int[] visitados = grafo.ExplorarProfundidade(2);
 
